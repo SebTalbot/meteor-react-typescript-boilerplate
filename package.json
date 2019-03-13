@@ -16,10 +16,10 @@
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.jsx",
-      "server": "server/main.js"
+      "client": "client/main.tsx",
+      "server": "server/main.ts"
     },
-    "testModule": "tests/main.js"
+    "testModule": "tests/main.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

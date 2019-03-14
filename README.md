@@ -9,3 +9,10 @@ Works with Meteor 1.8
 `cd meteor-react-typescript-boilerplate`
 
 `yarn`
+
+# Run
+Normal watch:
+`yarn start`
+
+Test once:
+`yarn test`

@@ -1,13 +1,19 @@
-import * as React from 'react';
-import {incrementNumber} from 'imports/lib/number'
+import React from "react";
+import { incrementNumber } from "/imports/lib/number";
 
-export default class Hello extends React.Component<{name?:string}, {counter:number}> {
+type Props = {
+  name?: string;
+};
+
+type State = { counter: number };
+
+export default class Hello extends React.Component<Props, State> {
   state = {
-    counter: 0,
-  }
+    counter: 0
+  };
 
   increment() {
-    const currentCounter = this.state.counter
+    const currentCounter = this.state.counter;
     this.setState({
       counter: incrementNumber(currentCounter)
     });

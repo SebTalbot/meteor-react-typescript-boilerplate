@@ -1,5 +1,5 @@
 import React from "react";
-import { incrementNumber } from "/imports/lib/number";
+import { incrementNumber } from "imports/lib/number";
 
 type Props = {
   name?: string;

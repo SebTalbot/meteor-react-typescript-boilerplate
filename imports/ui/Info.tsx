@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMeteorData from "meteor/react-meteor-data";
-import { Links, ILinks } from "/imports/api/links";
+import { Links, ILinks } from "imports/api/links";
 
 interface ItfInfo {
   links?: ILinks[];

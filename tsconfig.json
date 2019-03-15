@@ -8,9 +8,7 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "baseUrl": "",
-    "paths": {
-      "/*": ["*"]
-    },
+    "jsx": "preserve",
     "lib": ["es6", "dom"]
   },
   "include": ["**/*.ts", "**/*.tsx"],

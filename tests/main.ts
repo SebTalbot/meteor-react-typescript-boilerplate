@@ -3,7 +3,7 @@ import assert from "assert";
 import { Meteor } from "meteor/meteor";
 import { expect } from "chai";
 
-import { incrementNumber } from "/imports/lib/number";
+import { incrementNumber } from "imports/lib/number";
 
 describe("test", function() {
   if (Meteor.isClient) {
